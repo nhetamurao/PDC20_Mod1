@@ -1,23 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import HellowWorld from './HelloWorld';
+import Hi from './Hi';
+import Parent from './Parent';
+import StaticControl from './StaticControl';
+import Article from './Article';
+import Registration from './Registration';
+import Mod01Registration from './Mod01Registration';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <div>
+      <Mod01Registration/>
     </div>
   );
 }
